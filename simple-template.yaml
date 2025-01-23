@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  Name:
+    Type: String
+Resources:
+  MyNetworkAcl:
+    Type: 'AWS::EC2::NetworkAcl'
+    Properties: 
+      VpcId: vpc-0d1096ee9674db360
+      Tags: 
+        - Key: Name
+          Value: !Ref Name
