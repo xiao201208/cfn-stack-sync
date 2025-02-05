@@ -1,7 +1,7 @@
 template-file-path: ./simple-template.yaml
 
 parameters: 
-    Name: qitan-test
+    Name: qitan-test-new
 tags:
     usage: 'test'
     owner: 'qitan'
