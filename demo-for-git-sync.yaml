@@ -1,0 +1,5 @@
+template-file-path: simple-template.yaml
+parameters:
+  Name: git-sync-demo
+tags:
+  create-for: git-sync-demo
