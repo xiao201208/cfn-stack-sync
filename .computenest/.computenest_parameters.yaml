@@ -1,0 +1,19 @@
+RepoName: xiao201208/cfn-stack-sync
+RunCommand: |
+  echo "start run command"
+SourceCodePath: .
+CommandTimeout: 3600
+SecurityGroupPorts:
+- 80
+RuntimeType: LinuxShell
+ServicePorts:
+- 80
+ServiceType: private
+ArtifactSourceType: SourceCode
+ImageId: '"{{resolve:oos:aliyun/services/computenest/images/aliyun_3_2104_python_3_11}}"'
+ServiceBuildRegion: cn-hangzhou
+RegionId: cn-hangzhou
+CustomParameters: ''
+Owner: xiao201208
+Branch: main
+Platform: github
