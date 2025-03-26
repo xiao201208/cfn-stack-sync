@@ -1,0 +1,5 @@
+template-file-path: simple-template.yaml
+parameters: 
+    Name: demo
+tags:
+    usage: 'demo'
