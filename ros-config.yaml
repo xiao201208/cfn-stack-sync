@@ -1,5 +1,5 @@
-template-file-path: simple-template.yaml
+template-file-path: ros-template.yaml
 parameters: 
     Name: demo
 tags:
-    usage: 'demo'
+    usage: demo
