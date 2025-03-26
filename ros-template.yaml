@@ -1,0 +1,4 @@
+ROSTemplateFormatVersion: "2015-09-01"
+Outputs:
+  abc:
+    Value: abc
