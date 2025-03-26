@@ -2,7 +2,7 @@ ROSTemplateFormatVersion: "2015-09-01"
 Parameters:
   Name:
     Type: String
-    Default: test1
+    Default: test12
 Outputs:
   Name:
     Value: 
