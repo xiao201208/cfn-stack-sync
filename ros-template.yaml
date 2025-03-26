@@ -1,4 +1,9 @@
 ROSTemplateFormatVersion: "2015-09-01"
+Parameters:
+  Name:
+    Type: String
+    Default: test1
 Outputs:
-  abc:
-    Value: abc
+  Name:
+    Value: 
+      Ref: Name
