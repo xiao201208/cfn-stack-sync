@@ -1,4 +1,4 @@
-template-file-path: ros-tf
+template-file-path: ros-tf2/main.tf
 parameters: 
     name: test
 tags:
