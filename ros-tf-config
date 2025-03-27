@@ -1,5 +1,5 @@
 template-file-path: ros-tf
 parameters: 
-    Name: demo
+    name: test
 tags:
     usage: demo
