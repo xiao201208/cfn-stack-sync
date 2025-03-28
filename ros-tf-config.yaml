@@ -1,5 +1,5 @@
 template-file-path: ros-tf2/main.tf
 parameters: 
-    name: test
+    name: mytest
 tags:
-    usage: demo
+    usage: mytest
