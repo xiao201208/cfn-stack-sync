@@ -1,5 +1,5 @@
 template-file-path: ros-template.yaml
 parameters: 
-    Name: demo3
+    Name: demo4
 tags:
-    usage: demo3
+    usage: demo4
