@@ -1,6 +1,6 @@
 variable "name" {
   type = string
-  default = "demo"
+  default = "demo2"
 }
 
 data "alicloud_vpcs" "vpc_ds" {
